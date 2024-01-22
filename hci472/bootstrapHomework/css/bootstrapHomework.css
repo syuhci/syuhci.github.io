@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+/* color */
+.myBackgroundColor-lime {
+  background-color: #94c748;
+}
+.myBackgroundColor-red {
+  background-color: #f87168;
+}
+.myBackgroundColor-orange {
+  background-color: #fea362;
+}
+.myBackgroundColor-yellow {
+  background-color: #e2b203;
+}
+.myBackgroundColor-green {
+  background-color: #4bce97;
+}
+.myBackgroundColor-teal {
+  background-color: #6cc3e0;
+}
+.myBackgroundColor-blue {
+  background-color: #579dff;
+}
+.myBackgroundColor-purple {
+  background-color: #9f8fef;
+}
+.myBackgroundColor-magenta {
+  background-color: #e774bb;
+}
+
+/* google font */
+.myFont-space-grotesk-400 {
+  font-family: "Space Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.myFont-space-grotesk-700 {
+  font-family: "Space Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
