@@ -27,12 +27,12 @@
     />
   </head>
   <body class="bg-light myFont-space-grotesk-400">
+    <!-- nav -->
     <nav
-      class="navbar navbar-expand-lg bg-body-tertiary bg-dark border-bottom border-body sticky-top"
-      data-bs-theme="dark"
+      class="navbar navbar-expand-lg bg-light border-bottom border-body sticky-top"
     >
       <div class="container-fluid">
-        <a class="navbar-brand myFont-space-grotesk-700" href="#">Sean Yu</a>
+        <a class="navbar-brand myFont-space-grotesk-700" href="#">SEAN YU</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -46,72 +46,170 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarText">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <!-- nav link 1 -->
             <li class="nav-item">
               <a
-                class="nav-link active text-warning"
+                class="nav-link active myFont-space-grotesk-600"
                 aria-current="page"
                 href="#"
                 >Home</a
               >
             </li>
+            <!-- nav link 2 -->
             <li class="nav-item">
-              <a class="nav-link" href="gridChallenges/grid-challenge.html"
-                >Grid Challenge</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" aria-disabled="true"
-                >Disabled Placeholder</a
-              >
+              <a class="nav-link" href="research/research-1.html">Research</a>
             </li>
           </ul>
-          <span class="navbar-text">HCI 472 - Winter 24</span>
+
+          <!-- end nav -->
+          <span class="navbar-text text-body-tertiary"
+            >HCI 472 - Winter 24</span
+          >
         </div>
       </div>
     </nav>
     <div class="container-lg text-center mt-3">
       <!-- row -->
-      <div class="row row-gap-1 mb-3 text-start">
-        <div class="col-lg-6 col-md-12 pt-3 pb-3">
-          <h1 class="text-capitalize">Lorem Ipsum Dolor</h1>
-          <h2 class="text-capitalize">Sit Amet Consectetur</h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur.
+      <div class="row row-gap-1 mb-2 text-start">
+        <div class="col-1"></div>
+        <div class="col-9 py-2">
+          <h1 class="text-capitalize display-4">Lorem Ipsum Dolor</h1>
+          <h1 class="text-capitalize h4">
+            Ut maximus ligula non mollis pellentesque
+          </h1>
+          <p class="lead">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vitae
+            dictum nulla, et luctus nunc. Curabitur malesuada elementum
+            elementum.
           </p>
         </div>
-        <div class="col-lg-6 col-md-12 pt-3 pb-3">
-          <h1 class="text-capitalize">Elit Sed Do Eiusmod</h1>
-          <h2 class="text-capitalize">Tempor Incididunt</h2>
-          <p>
-            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-            nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum.
-          </p>
+        <div class="col-1"></div>
+      </div>
+
+      <!-- row -->
+      <div class="row row-gap-1 mb-3 text-start">
+        <!-- card 1 -->
+        <div class="col-lg-4 col-md-12 py-2">
+          <div class="card shadow-sm border-0">
+            <div class="card-body">
+              <img
+                src="assets/card-img-1.jpg"
+                class="card-img-top mb-3"
+                alt="..."
+              />
+              <h5 class="card-title text-capitalize">Aliquam erat volutpat</h5>
+              <p class="card-text">
+                Nam in diam faucibus, fringilla odio egestas, tincidunt nulla,
+                condimentum nunc luctus
+              </p>
+              <a href="#" class="btn btn-dark rounded-pill">Learn more</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- card 2 -->
+        <div class="col-lg-4 col-md-12 py-2">
+          <div class="card shadow-sm border-0">
+            <div class="card-body">
+              <img
+                src="assets/card-img-2.jpg"
+                class="card-img-top mb-3"
+                alt="..."
+              />
+              <h5 class="card-title text-capitalize">Sed rutrum pretium</h5>
+              <p class="card-text">
+                Maecenas et mauris fermentum, volutpat neque et, luctus sem,
+                placerat velit eget
+              </p>
+
+              <!--  trigger modal -->
+              <a
+                href="#"
+                class="btn btn-dark rounded-pill"
+                data-bs-toggle="modal"
+                data-bs-target="#myModal"
+                >Open modal &#8599;
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- card 3 -->
+        <div class="col-lg-4 col-md-12 py-2">
+          <div class="card shadow-sm border-0">
+            <div class="card-body">
+              <img
+                src="assets/card-img-3.jpg"
+                class="card-img-top mb-3"
+                alt="..."
+              />
+              <h5 class="card-title text-capitalize">mauris vel interdum</h5>
+              <p class="card-text">
+                Integer a sapien maximus, pulvinar ante eu, aliquam tellus,
+                fermentum purus nec
+              </p>
+              <a href="#" class="btn btn-dark rounded-pill">Learn more</a>
+            </div>
+          </div>
         </div>
       </div>
     </div>
+
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="myModal"
+      tabindex="-1"
+      aria-labelledby="myModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content border-0">
+          <div class="modal-header border-0 pb-0">
+            <h1 class="modal-title fs-5" id="myModalLabel">Surprise Modal</h1>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body text-center py-3">
+            <img
+              src="assets/backing-up-homer-simpson-giphy.gif"
+              class="img-fluid myGif"
+              alt=""
+            />
+            <p class="lead mb-0 mt-3">Oops, nothing to see here</p>
+          </div>
+          <div class="modal-footer pt-0 border-0">
+            <button
+              type="button"
+              class="btn btn-dark rounded-pill"
+              data-bs-dismiss="modal"
+            >
+              Ok, bye
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+
     <!-- footer -->
-    <footer class="footer bg-body-tertiary align-items-center mt-3">
+    <footer class="footer text-black-50 align-items-center mt-3">
       <div class="container pt-3 border-top">
         <div class="row">
           <div class="col-3">
-            <p class="text-body-secondary text-start">© Sean Yu</p>
+            <p class="text-start">© Sean Yu</p>
           </div>
           <div class="col-6">
-            <p class="text-body-secondary text-center">
-              Last Update: January 2024
-            </p>
+            <p class="text-center">Last Update: January 2024</p>
           </div>
           <div class="col-3">
-            <p class="text-body-secondary text-end">
-              <a href="mailto:syu37@depaul.edu" class="link-secondary"
+            <p class="text-end">
+              <a
+                href="mailto:syu37@depaul.edu"
+                class="link-dark link-offset-2 link-opacity-50 link-opacity-75-hover link-underline-opacity-25 link-underline-opacity-50-hover"
                 >Send email</a
               >
             </p>
