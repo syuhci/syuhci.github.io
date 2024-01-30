@@ -1,0 +1,191 @@
+@charset "UTF-8";
+
+/* google font space grotesk */
+.myFont-space-grotesk-400 {
+  font-family: "Space Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.myFont-space-grotesk-600 {
+  font-family: "Space Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+.myFont-space-grotesk-700 {
+  font-family: "Space Grotesk", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* typeface - syne & poppins*/
+.syne-h1 {
+  font-family: "Syne", sans-serif;
+  font-size: 61.04px;
+  font-weight: 600;
+  font-style: normal;
+}
+.syne-h2 {
+  font-family: "Syne", sans-serif;
+  font-size: 48.83px;
+  font-weight: 600;
+  font-style: normal;
+}
+.syne-h3 {
+  font-family: "Syne", sans-serif;
+  font-size: 39.06px;
+  font-weight: 600;
+  font-style: normal;
+}
+.syne-h4 {
+  font-family: "Syne", sans-serif;
+  font-size: 31.25px;
+  font-weight: 600;
+  font-style: normal;
+}
+.poppins-body {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+}
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  font-style: normal;
+}
+.poppins-link {
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  text-decoration: underline;
+  color: #186ade;
+}
+
+/* typeface - rubik */
+.rubik-h1 {
+  font-family: "Rubik", sans-serif;
+  font-size: 61.04px;
+  font-weight: 600;
+  font-style: normal;
+}
+.rubik-h2 {
+  font-family: "Rubik", sans-serif;
+  font-size: 48.83px;
+  font-weight: 600;
+  font-style: normal;
+}
+.rubik-h3 {
+  font-family: "Rubik", sans-serif;
+  font-size: 39.06px;
+  font-weight: 600;
+  font-style: normal;
+}
+.rubik-h4 {
+  font-family: "Rubik", sans-serif;
+  font-size: 31.25px;
+  font-weight: 600;
+  font-style: normal;
+}
+.rubik-body {
+  font-family: "Rubik", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+}
+.rubik-bold {
+  font-family: "Rubik", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  font-style: normal;
+}
+.rubik-link {
+  font-family: "Rubik", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  text-decoration: underline;
+  color: #186ade;
+}
+
+/* typeface - syne & poppins*/
+.philosopher-h1 {
+  font-family: "Philosopher", sans-serif;
+  font-size: 61.04px;
+  font-weight: 700;
+  font-style: normal;
+}
+.philosopher-h2 {
+  font-family: "Philosopher", sans-serif;
+  font-size: 48.83px;
+  font-weight: 700;
+  font-style: normal;
+}
+.philosopher-h3 {
+  font-family: "Philosopher", sans-serif;
+  font-size: 39.06px;
+  font-weight: 700;
+  font-style: normal;
+}
+.philosopher-h4 {
+  font-family: "Philosopher", sans-serif;
+  font-size: 31.25px;
+  font-weight: 700;
+  font-style: normal;
+}
+.mulish-body {
+  font-family: "Mulish", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+}
+.mulish-bold {
+  font-family: "Mulish", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  font-style: normal;
+}
+.mulish-link {
+  font-family: "Mulish", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  text-decoration: underline;
+  color: #186ade;
+}
+
+/* typeface */
+.font-monospace {
+  font-size: 14px;
+}
+
+/* button */
+.myBtn {
+  color: #212529;
+  background-color: #ffc107;
+  border: 0;
+  font-weight: 500;
+  border-radius: 8px;
+}
+.myBtn:hover {
+  color: #ffc107;
+  background-color: #212529;
+  font-weight: 500;
+}
+
+/* card */
+.card {
+  border-radius: 16px;
+}
+.card:hover {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+
+  /* background-color: blue !important; */
+}
+.card-typeface-size {
+  font-size: 32px;
+}

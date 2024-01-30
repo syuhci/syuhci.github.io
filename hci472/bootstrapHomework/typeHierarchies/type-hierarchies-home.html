@@ -8,7 +8,7 @@
       name="robots"
       content="noindex,nofollow,noarchive,nocache,nositelinkssearchbox,nosnippet,indexifembedded,noimageindex,noodp"
     />
-    <title>Sean Yu Bootstrap Homework</title>
+    <title>Sean Yu - Type Hierarchies</title>
     <link rel="icon" type="image/x-icon" href="assets/favicon.png" />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
@@ -17,14 +17,39 @@
       crossorigin="anonymous"
     />
     <!-- css link -->
-    <link rel="stylesheet" href="css/bootstrapHomework.css" />
-    <!-- google fonts -->
+    <link rel="stylesheet" href="../css/typeHierarchies.css" />
+    <!-- google fonts - Space Grotesk primary -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap"
       rel="stylesheet"
     />
+    <!-- end -->
+    <!-- google fonts - Syne & Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Syne:wght@600&display=swap"
+      rel="stylesheet"
+    />
+    <!-- end -->
+    <!-- google fonts - Rubik -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+    <!-- end -->
+    <!-- google fonts - Philosopher & Mulish -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&family=Philosopher:wght@700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- end -->
   </head>
   <body class="bg-light myFont-space-grotesk-400">
     <!-- nav -->
@@ -55,9 +80,23 @@
                 >Home</a
               >
             </li>
-            <!-- nav link 2 -->
+            <!-- type hierarchy 1 -->
             <li class="nav-item">
-              <a class="nav-link" href="research/research-1.html">Research</a>
+              <a class="nav-link" href="type-hierarchies-1.html"
+                >&#10112; Syne & Poppins</a
+              >
+            </li>
+            <!-- type hierarchy 2 -->
+            <li class="nav-item">
+              <a class="nav-link" href="type-hierarchies-2.html"
+                >&#10113; Rubik & Rubik</a
+              >
+            </li>
+            <!-- type hierarchy 3 -->
+            <li class="nav-item">
+              <a class="nav-link" href="type-hierarchies-3.html"
+                >&#10114; Philosopher & Mulish</a
+              >
             </li>
           </ul>
 
@@ -68,130 +107,84 @@
         </div>
       </div>
     </nav>
-    <div class="container-lg text-center mt-3">
+    <!-- container -->
+    <div class="container-lg text-center py-3">
       <!-- row -->
-      <div class="row row-gap-1 mb-2 text-start">
-        <div class="col-1"></div>
-        <div class="col-9 py-2">
-          <h1 class="text-capitalize display-4">Lorem Ipsum Dolor</h1>
-          <h1 class="text-capitalize h4">
-            Ut maximus ligula non mollis pellentesque
-          </h1>
+      <div class="row row-gap-1 pb-2 text-center">
+        <div class="col py-5">
+          <h1 class="text-capitalize pb-3">Explore Type Hierarchies</h1>
           <p class="lead">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam vitae
-            dictum nulla, et luctus nunc. Curabitur malesuada elementum
-            elementum.
+            Click on any of the options below to review different type hierarchy
+            examples
           </p>
         </div>
-        <div class="col-1"></div>
       </div>
 
       <!-- row -->
-      <div class="row row-gap-1 mb-3 text-start">
+      <div class="row row-gap-1 pb-5 text-start">
         <!-- card 1 -->
         <div class="col-lg-4 col-md-12 py-2">
           <div class="card shadow-sm border-0">
             <div class="card-body">
-              <img
-                src="assets/card-img-1.jpg"
-                class="card-img-top mb-3"
-                alt="..."
-              />
-              <h5 class="card-title text-capitalize">Aliquam erat volutpat</h5>
-              <p class="card-text">
-                Nam in diam faucibus, fringilla odio egestas, tincidunt nulla,
-                condimentum nunc luctus
+              <p class="card-title text-uppercase text-body-tertiary">
+                Example 1
               </p>
-              <a href="#" class="btn myBtn rounded-pill">Learn more</a>
+              <h1 class="text-capitalize syne-h1 typeface-page-title fs-1">
+                Syne<span
+                  class="myFont-space-grotesk-400 text-body-tertiary fs-1"
+                >
+                  & </span
+                ><span class="poppins-body fs-1">Poppins</span>
+              </h1>
+              <a href="type-hierarchies-1.html" class="btn myBtn stretched-link"
+                >Learn more</a
+              >
             </div>
           </div>
         </div>
-
+        <!-- end -->
         <!-- card 2 -->
         <div class="col-lg-4 col-md-12 py-2">
           <div class="card shadow-sm border-0">
             <div class="card-body">
-              <img
-                src="assets/card-img-2.jpg"
-                class="card-img-top mb-3"
-                alt="..."
-              />
-              <h5 class="card-title text-capitalize">Sed rutrum pretium</h5>
-              <p class="card-text">
-                Maecenas et mauris fermentum, volutpat neque et, luctus sem,
-                placerat velit eget
+              <p class="card-title text-uppercase text-body-tertiary">
+                Example 2
               </p>
-
-              <!--  trigger modal -->
-              <a
-                href="#"
-                class="btn myBtn rounded-pill"
-                data-bs-toggle="modal"
-                data-bs-target="#myModal"
-                >Open modal &#8599;
-              </a>
+              <h1 class="text-capitalize rubik-h1 fs-1">
+                Rubik<span
+                  class="myFont-space-grotesk-400 text-body-tertiary fs-1"
+                >
+                  & </span
+                ><span class="rubik-body fs-1">Rubik</span>
+              </h1>
+              <a href="type-hierarchies-2.html" class="btn myBtn stretched-link"
+                >Learn more</a
+              >
             </div>
           </div>
         </div>
-
+        <!-- end -->
         <!-- card 3 -->
         <div class="col-lg-4 col-md-12 py-2">
           <div class="card shadow-sm border-0">
             <div class="card-body">
-              <img
-                src="assets/card-img-3.jpg"
-                class="card-img-top mb-3"
-                alt="..."
-              />
-              <h5 class="card-title text-capitalize">mauris vel interdum</h5>
-              <p class="card-text">
-                Integer a sapien maximus, pulvinar ante eu, aliquam tellus,
-                fermentum purus nec
+              <p class="card-title text-uppercase text-body-tertiary">
+                Example 3
               </p>
-              <a href="#" class="btn myBtn rounded-pill">Learn more</a>
+              <h1 class="text-capitalize philosopher-h1 fs-1">
+                Philosopher<span
+                  class="myFont-space-grotesk-400 text-body-tertiary fs-1"
+                >
+                  & </span
+                ><span class="mulish-body fs-1">Mulish</span>
+              </h1>
+              <a href="type-hierarchies-3.html" class="btn myBtn stretched-link"
+                >Learn more</a
+              >
             </div>
           </div>
         </div>
-      </div>
-    </div>
-
-    <!-- Modal -->
-    <div
-      class="modal fade"
-      id="myModal"
-      tabindex="-1"
-      aria-labelledby="myModalLabel"
-      aria-hidden="true"
-    >
-      <div class="modal-dialog modal-dialog-centered">
-        <div class="modal-content border-0">
-          <div class="modal-header border-0 pb-0">
-            <h1 class="modal-title fs-5" id="myModalLabel">Surprise Modal</h1>
-            <button
-              type="button"
-              class="btn-close"
-              data-bs-dismiss="modal"
-              aria-label="Close"
-            ></button>
-          </div>
-          <div class="modal-body text-center py-3">
-            <img
-              src="assets/backing-up-homer-simpson-giphy.gif"
-              class="img-fluid myGif"
-              alt=""
-            />
-            <p class="lead mb-0 mt-3">Oops, nothing to see here</p>
-          </div>
-          <div class="modal-footer pt-0 border-0">
-            <button
-              type="button"
-              class="btn myBtn rounded-pill"
-              data-bs-dismiss="modal"
-            >
-              Ok, bye
-            </button>
-          </div>
-        </div>
+        <!-- end -->
       </div>
     </div>
 
